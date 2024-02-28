@@ -12,7 +12,7 @@ project aimed at trainning interns on how to perfrom various CRUD operation to a
 
 **How to Install Pillow:**
 - *type on the command line: ** "pip install pillow"
-*NB: pillow is a python libary that will enable you to work with images, so without it, django will be unable to work with image files*
+- *NB: pillow is a python libary that will enable you to work with images, so without it, django will be unable to work with image files*
 
 
 **Database** 
