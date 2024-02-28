@@ -1,0 +1,25 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul a:hover {
+    color: teal;
+}

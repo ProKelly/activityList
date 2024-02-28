@@ -1,0 +1,19 @@
+{% extends "main.html" %}
+
+{% load static %}
+{% block title %}
+  home
+{% endblock title %}
+
+{% block content %}
+<div class="todos">
+  {% for todo in todos %}
+  <a href="{% url 'details' todo.id %}">
+    <div class="todo">
+      <img src="{{todo.image.url}}" alt="image" title="{{todo.name}}">
+      <h2> {{todo.name}} </h2>
+    </div>
+  </a>
+{% endfor %}
+</div>
+{% endblock content %}

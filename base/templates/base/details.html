@@ -1,0 +1,17 @@
+
+{% extends "main.html" %}
+
+{% block title %}
+    details
+{% endblock title %}
+
+{% block content %}
+  <div class="todo-details">
+    <img src="{{todo.image.url}}" alt="todo-image" title="{{todo.name}}">
+    <h2> {{todo.name}} </h2>
+  </div>
+  <div class="todo-details-btns">
+    <a href="{% url 'update' todo.id %}"><button type="submit">Edit</button></a>
+    <a href="{% url 'delete' todo.id %}"><button type="submit">Delete</button></a>
+  </div>
+{% endblock content %}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'base/css/global.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/navbar_sidebar.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/home.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/create.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/details.css' %}">
+    <link rel="stylesheet" href="{% static 'base/css/delete.css' %}">
+
+
+    <title>toDoList | {% block title %} 
+        
+    {% endblock title %}</title>
+</head>
+<body>
+    {% include "navbar._sidebar.html" %}
+    {% block content %}
+      
+    {% endblock content %}
+</body>
+</html>

@@ -1,0 +1,50 @@
+
+.delete {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto;
+    height: 200px;
+    width: fit-content;
+    padding: 1.5rem;
+    box-shadow: 1px 2px 3px red;
+}
+
+.delete-message {
+    color: white;
+    padding: 10px;
+}
+
+.delete-options {
+    display: flex;
+    gap: 1rem;
+}
+
+.delete-options a {
+    color: white;
+    background-color: seagreen;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.delete-options a:hover {
+    background-color: rgba(46, 139, 86, 0.526);
+}
+
+.delete-options  button {
+    background-color: red;
+    transition: 0.5s;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+}
+
+.delete-options button:hover {
+    background-color: rgba(255, 0, 0, 0.501);
+}

@@ -1,0 +1,14 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:  rgba(2, 25, 33, 0.953);
+}
+
+h1 {
+    color: white;
+}
